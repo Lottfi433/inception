@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1522">
+  <meta name="description" content="Yasser Zlaigi — 1337 / 42 Network software developer building C, C++, Linux and Docker projects, with an interest in data engineering.">
+  <title>Yasser Zlaigi — Software Developer | 1337</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav">
+  <a class="brand" href="#top" aria-label="Yasser Zlaigi, back to top">YZ<span class="brand-dot">.</span></a>
+  <button class="menu-toggle" type="button" aria-controls="primary-nav" aria-expanded="false" aria-label="Toggle navigation">Menu <span aria-hidden="true">☰</span></button>
+  <nav id="primary-nav" aria-label="Main navigation">
+    <a href="#about">About</a><a href="#path">Journey</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a class="nav-contact" href="#contact">Contact ↗</a>
+  </nav>
+</header>
+<main id="main">
+  <section class="hero" id="top" aria-labelledby="hero-title">
+    <div class="hero-main">
+      <p class="eyebrow"><span class="status-dot"></span> 1337 / 42 Network · Morocco</p>
+      <h1 id="hero-title">Yasser<br><span>Zlaigi.</span></h1>
+      <div class="hero-meta"><span>Software development</span><span>Systems & infrastructure</span><span>Data engineering interests</span></div>
+    </div>
+    <div class="hero-side">
+      <p class="lead">I learn by <em>building</em> things that work.</p>
+      <p>I'm a software developer studying at <strong>1337 (42 Network)</strong>. From low-level C and C++ to Linux, networking and Docker, I enjoy understanding what happens beneath the surface.</p>
+      <div class="actions"><a class="btn primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a><a class="btn" href="#contact">Let's connect</a></div>
+    </div>
+    <div class="hero-bottom"><span>SCROLL TO EXPLORE</span><span aria-hidden="true">↓</span></div>
+  </section>
+
+  <section id="about" class="block about">
+    <div class="section-label"><span>01 / ABOUT</span><span>THE PERSON BEHIND THE CODE</span></div>
+    <h2>Curious about how<br><span class="accent-text">systems fit together.</span></h2>
+    <div class="about-layout">
+      <p class="about-big">I like turning complex problems into smaller pieces, then building the solution from the ground up.</p>
+      <div class="about-text">
+        <p>I'm based in <strong>Tetouan, Morocco</strong> and study at <strong>1337</strong>, part of the 42 Network. The curriculum has taken me through memory management, Unix processes, multithreading, graphics, object-oriented C++, and containerized services.</p>
+        <p>Before software development, I completed a <strong>Bac+3 in Economics</strong>. That background shapes my interest in using software and data to understand real-world questions.</p>
+        <p>I'm also exploring <strong>data engineering</strong> through Python, public APIs, and a Morocco-focused economic data project.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="path" class="block">
+    <div class="section-label"><span>02 / JOURNEY</span><span>HOW I GOT HERE</span></div>
+    <h2>A path built through <span class="accent-text">projects.</span></h2>
+    <ol class="path">
+      <li><span class="path-num">01</span><h3>Economics</h3><p>Completed a Bac+3, developing an analytical foundation and an interest in data-driven questions.</p></li>
+      <li><span class="path-num">02</span><h3>1337 / 42 Network</h3><p>Learned C, Unix fundamentals, debugging and collaborative problem-solving through peer-reviewed projects.</p></li>
+      <li><span class="path-num">03</span><h3>C++ & systems</h3><p>Expanded into object-oriented programming, STL, networking concepts, graphics and system architecture.</p></li>
+      <li class="now"><span class="path-num">NOW</span><h3>Infrastructure & data</h3><p>Building the Inception Docker stack and exploring Python-based economic data collection.</p></li>
+    </ol>
+  </section>
+
+  <section id="projects" class="block">
+    <div class="section-label"><span>03 / SELECTED WORK</span><span>BUILT TO LEARN</span></div>
+    <h2>Projects, not just <span class="accent-text">tutorials.</span></h2>
+    <p class="intro">A selection of my 42 projects and personal explorations. See more on <a href="https://github.com/Lottfi433" target="_blank" rel="noopener noreferrer">GitHub ↗</a>.</p>
+    <ul class="projects">
+      <li class="featured"><div class="project-top"><span class="project-index">01 / INFRASTRUCTURE</span><span class="project-mark">↗</span></div><h3>Inception</h3><p>A multi-service Docker Compose infrastructure with custom Debian-based images: Nginx with TLS, WordPress/PHP-FPM, MariaDB and persistent volumes. Added Redis object caching, FTP, Adminer and a static portfolio.</p><span class="tags">Docker · Linux · Nginx · MariaDB · Redis · Networking</span></li>
+      <li class="featured"><div class="project-top"><span class="project-index">02 / UNIX SHELL</span><span class="project-mark">↗</span></div><h3>Minishell</h3><p>A Bash-like shell in C, with tokenization and parsing, quote handling, variable expansion, pipes, redirections, heredocs, signals and built-in commands.</p><span class="tags">C · Parsing · Processes · File descriptors</span></li>
+      <li><div class="project-top"><span class="project-index">03 / GRAPHICS</span><span class="project-mark">↗</span></div><h3>Cub3D</h3><p>A raycasting-based 3D environment, including map and texture configuration parsing, map validation and DDA-based wall rendering.</p><span class="tags">C · Raycasting · DDA · Graphics</span></li>
+      <li><div class="project-top"><span class="project-index">04 / CONCURRENCY</span><span class="project-mark">↗</span></div><h3>Philosophers</h3><p>Simulated the dining philosophers problem with POSIX threads, mutex synchronization and monitoring for starvation and timing constraints.</p><span class="tags">C · pthreads · Mutexes · Synchronization</span></li>
+      <li><div class="project-top"><span class="project-index">05 / OBJECT-ORIENTED C++</span><span class="project-mark">↗</span></div><h3>C++ Modules</h3><p>Progressed from classes and memory management to inheritance, polymorphism, exceptions, templates, STL containers and algorithmic exercises including BitcoinExchange, RPN and PmergeMe.</p><span class="tags">C++ · OOP · Templates · STL · Algorithms</span></li>
+      <li><div class="project-top"><span class="project-index">06 / NETWORKING</span><span class="project-mark">↗</span></div><h3>NetPractice</h3><p>Worked through practical IP addressing, subnet masks, routing and gateway scenarios to understand how networked machines communicate.</p><span class="tags">TCP/IP · Subnetting · Routing</span></li>
+      <li><div class="project-top"><span class="project-index">07 / ALGORITHMS</span><span class="project-mark">↗</span></div><h3>push_swap</h3><p>Sorted integers using two stacks and a restricted instruction set, focusing on algorithm selection and operation counts.</p><span class="tags">C · Sorting · Complexity</span></li>
+      <li><div class="project-top"><span class="project-index">08 / SYSTEMS</span><span class="project-mark">↗</span></div><h3>Born2beroot</h3><p>Configured a Linux virtual machine with user policies, SSH, firewall settings, system monitoring and administrative controls.</p><span class="tags">Linux · Bash · System administration</span></li>
+      <li><div class="project-top"><span class="project-index">09 / 2D GAME</span><span class="project-mark">↗</span></div><h3>so_long</h3><p>Created a small 2D game with map validation, movement, event handling and graphics.</p><span class="tags">C · Graphics · Game logic</span></li>
+      <li><div class="project-top"><span class="project-index">10 / FOUNDATIONS</span><span class="project-mark">↗</span></div><h3>Libft · ft_printf · get_next_line · Minitalk</h3><p>Built foundational C utilities, formatted output, buffered line reading and signal-based interprocess communication.</p><span class="tags">C · Memory · I/O · Unix signals</span></li>
+      <li class="exploration"><div class="project-top"><span class="project-index">11 / PERSONAL EXPLORATION</span><span class="project-mark">↗</span></div><h3>Morocco Economic Data</h3><p>Exploring a data collection and analysis project using the World Bank API and Moroccan public-sector reports. Early work focuses on gathering indicators and evaluating data sources.</p><span class="tags">Python · REST APIs · Economic indicators · In progress</span></li>
+    </ul>
+  </section>
+
+  <section id="skills" class="block">
+    <div class="section-label"><span>04 / TOOLKIT</span><span>THINGS I WORK WITH</span></div>
+    <h2>Tools of the <span class="accent-text">trade.</span></h2>
+    <dl class="skills">
+      <div><dt>Languages</dt><dd>C, C++, Bash, Python (developing), HTML, CSS, JavaScript (fundamentals)</dd></div>
+      <div><dt>Systems & infrastructure</dt><dd>Linux, Unix processes, signals, threads, Docker, Docker Compose, Nginx, TLS, MariaDB, Redis, FTP</dd></div>
+      <div><dt>Computer science</dt><dd>Data structures, algorithms, parsing, memory management, OOP, templates, networking fundamentals</dd></div>
+      <div><dt>Development tools</dt><dd>Git, Make, GCC/G++, GDB, Valgrind, VS Code, terminal workflows</dd></div>
+      <div><dt>Currently exploring</dt><dd>Python data collection, SQL, APIs, data engineering concepts and pipelines</dd></div>
+      <div><dt>Background</dt><dd>Bac+3 Economics · Peer learning · Collaborative project reviews</dd></div>
+    </dl>
+  </section>
+
+  <section id="contact" class="block contact">
+    <div class="section-label"><span>05 / CONTACT</span><span>LET'S BUILD SOMETHING</span></div>
+    <h2>Have a project<br>in <span class="accent-text">mind?</span></h2>
+    <p class="intro">I'm interested in internship and junior opportunities in software development, systems and data engineering. Feel free to reach out.</p>
+    <div class="contact-actions"><a class="btn primary" href="mailto:yasserzlaigi7@gmail.com">Email me ↗</a><a class="btn" href="https://github.com/Lottfi433" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a class="btn" href="https://www.linkedin.com/in/yasser-zlaigi-879a24282/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></div>
+    <p class="contact-small">Discord: lotfi007 · Tetouan, Morocco</p>
+  </section>
+</main>
+<footer><span>© <span id="year">2026</span> Yasser Zlaigi</span><span>Built with HTML, CSS & JavaScript · Served with Docker</span><a href="#top">Back to top ↑</a></footer>
+</body>
+</html>
